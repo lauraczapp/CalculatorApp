@@ -23,7 +23,20 @@ import java.util.Scanner;
                  ergebnis=c.add(zahl1,zahl2);
                  System.out.println("Ergebnis: "+ergebnis);
                  break;
+             case 1:
+                 ergebnis=c.sub(zahl1,zahl2);
+                 System.out.println("Ergebnis: "+ergebnis);
+                 break;
 
+             case 1:
+                 ergebnis=c.mul(zahl1,zahl2);
+                 System.out.println("Ergebnis: "+ergebnis);
+                 break;
+
+             case 4:
+                 ergebnis=c.div(zahl1,zahl2);
+                 System.out.println("Ergebnis: "+ergebnis);
+                 break;
          }
 
      }
