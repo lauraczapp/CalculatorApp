@@ -1,4 +1,10 @@
+import java.util.Scanner;
+
 public class Calculator {
 
-    //wir stellen uns hier Methoden vor :)
+    public int add(int a, int b){
+        return a+b;
+    }
+
+
 }
